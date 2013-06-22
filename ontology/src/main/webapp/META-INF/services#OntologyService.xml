@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This needs to go into tomcat/conf/Catalina/localhost
+	It will be put there in production
+	Then the final OntologyService[.war] needs to go into tomcat/webapps/services
+	-->
+<Context reloadable="true" swallowOutput="true">
+  <Valve className="org.apache.catalina.valves.AccessLogValve"
+         prefix="services_ontologyservice_access." suffix=".txt"
+         pattern="common"/>
+</Context>
