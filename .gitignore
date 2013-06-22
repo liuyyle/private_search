@@ -1,3 +1,14 @@
+target/
+.classpath
+.project
+.settings
+*/src/main/java/META-INF/
+*.log
+*.swp
+*.diff
+*.patch
+build/
+
 *.class
 
 # Package Files #
